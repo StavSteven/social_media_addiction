@@ -4,8 +4,8 @@ Student: 501,22,Male,Single,Graduate,India,Asia,Twitter,126.0,2,450.0,7.5,0,No,3
 Student: 502,20,Female,Complicated,Undergraduate,USA,North America,TikTok,360.0,6,300.0,5.0,4,Yes,9,5
 Student: 503,18,Male,Single,High School,UK,Europe,YouTube,180.0,3,420.0,7.0,1,No,4,7
 Student: 504,21,Male,In Relationship,Graduate,Canada,North America,Facebook,270.0,4,360.0,6.0,2,Yes,7,6
-Student: 505,19,Female,Complicated,Undergraduate,Australia,Oceania,Instagram,432.0,7,270.0,4.5,5,Yes,9,4
-Student: 506,20,Female,In Relationship,Undergraduate,Brazil,South America,Snapchat,348.0,5,360.0,6.0,2,Yes,8,6
+Student: 505,19,Female,Complicated,Undergraduate,Australia,Rest of World,Instagram,432.0,7,270.0,4.5,5,Yes,9,4
+Student: 506,20,Female,In Relationship,Undergraduate,Brazil,Rest of World,Snapchat,348.0,5,360.0,6.0,2,Yes,8,6
 Student: 507,18,Male,Single,High School,Japan,Asia,TikTok,240.0,4,390.0,6.5,1,No,5,7
 Student: 508,21,Female,In Relationship,Graduate,South Korea,Asia,Instagram,198.0,3,420.0,7.0,1,No,4,7
 Student: 509,19,Male,Complicated,Undergraduate,France,Europe,Snapchat,288.0,4,372.0,6.2,3,Yes,7,5
@@ -24,7 +24,7 @@ Student: 521,19,Male,Complicated,Undergraduate,Austria,Europe,Instagram,294.0,4,
 Student: 522,20,Female,Single,Undergraduate,Portugal,Europe,TikTok,342.0,5,324.0,5.4,4,Yes,8,5
 Student: 523,22,Male,In Relationship,Graduate,Greece,Europe,Facebook,192.0,3,414.0,6.9,2,No,5,7
 Student: 524,19,Female,Complicated,High School,Ireland,Europe,Instagram,366.0,6,312.0,5.2,4,Yes,9,5
-Student: 525,21,Male,Single,Undergraduate,New Zealand,Oceania,YouTube,228.0,3,396.0,6.6,1,No,5,7
+Student: 525,21,Male,Single,Undergraduate,New Zealand,Rest of World,YouTube,228.0,3,396.0,6.6,1,No,5,7
 Student: 526,20,Female,In Relationship,Undergraduate,Singapore,Asia,TikTok,264.0,4,354.0,5.9,3,Yes,7,6
 Student: 527,24,Male,Single,Graduate,Malaysia,Asia,LinkedIn,132.0,2,444.0,7.4,0,No,3,8
 Student: 528,19,Female,Complicated,High School,Thailand,Asia,Instagram,354.0,5,318.0,5.3,4,Yes,8,5
@@ -36,21 +36,21 @@ Student: 533,19,Male,In Relationship,Undergraduate,Hong Kong,Asia,Instagram,282.
 Student: 534,20,Female,Complicated,Undergraduate,Turkey,Europe,TikTok,336.0,5,330.0,5.5,4,Yes,8,5
 Student: 535,22,Male,Single,Graduate,Israel,Asia,Facebook,186.0,3,408.0,6.8,1,No,5,7
 Student: 536,19,Female,In Relationship,High School,UAE,Asia,Instagram,372.0,6,306.0,5.1,4,Yes,9,5
-Student: 537,21,Male,Complicated,Undergraduate,Egypt,Africa,YouTube,234.0,3,390.0,6.5,2,No,6,7
-Student: 538,20,Female,Single,Undergraduate,Morocco,Africa,TikTok,270.0,4,348.0,5.8,3,Yes,7,6
-Student: 539,24,Male,In Relationship,Graduate,South Africa,Africa,LinkedIn,138.0,2,438.0,7.3,1,No,4,8
-Student: 540,19,Female,Complicated,High School,Nigeria,Africa,Instagram,348.0,5,324.0,5.4,4,Yes,8,5
-Student: 541,21,Male,Single,Undergraduate,Kenya,Africa,Facebook,222.0,3,396.0,6.6,2,No,5,7
-Student: 542,20,Female,In Relationship,Undergraduate,Ghana,Africa,Snapchat,276.0,4,342.0,5.7,3,Yes,7,6
-Student: 543,18,Male,Single,High School,Argentina,South America,TikTok,330.0,5,318.0,5.3,4,Yes,8,5
-Student: 544,23,Female,Complicated,Graduate,Chile,South America,LinkedIn,162.0,2,426.0,7.1,1,No,4,8
-Student: 545,19,Male,In Relationship,Undergraduate,Colombia,South America,Instagram,288.0,4,354.0,5.9,3,Yes,7,6
-Student: 546,20,Female,Single,Undergraduate,Peru,South America,TikTok,330.0,5,336.0,5.6,4,Yes,8,5
-Student: 547,22,Male,In Relationship,Graduate,Venezuela,South America,Facebook,198.0,3,402.0,6.7,2,No,5,7
-Student: 548,19,Female,Complicated,High School,Ecuador,South America,Instagram,378.0,6,312.0,5.2,4,Yes,9,5
-Student: 549,21,Male,Single,Undergraduate,Uruguay,South America,YouTube,228.0,3,384.0,6.4,2,No,6,7
-Student: 550,20,Female,In Relationship,Undergraduate,Paraguay,South America,TikTok,282.0,4,348.0,5.8,3,Yes,7,6
-Student: 551,24,Male,Complicated,Graduate,Bolivia,South America,LinkedIn,144.0,2,432.0,7.2,1,No,4,8
+Student: 537,21,Male,Complicated,Undergraduate,Egypt,Rest of World,YouTube,234.0,3,390.0,6.5,2,No,6,7
+Student: 538,20,Female,Single,Undergraduate,Morocco,Rest of World,TikTok,270.0,4,348.0,5.8,3,Yes,7,6
+Student: 539,24,Male,In Relationship,Graduate,South Africa,Rest of World,LinkedIn,138.0,2,438.0,7.3,1,No,4,8
+Student: 540,19,Female,Complicated,High School,Nigeria,Rest of World,Instagram,348.0,5,324.0,5.4,4,Yes,8,5
+Student: 541,21,Male,Single,Undergraduate,Kenya,Rest of World,Facebook,222.0,3,396.0,6.6,2,No,5,7
+Student: 542,20,Female,In Relationship,Undergraduate,Ghana,Rest of World,Snapchat,276.0,4,342.0,5.7,3,Yes,7,6
+Student: 543,18,Male,Single,High School,Argentina,Rest of World,TikTok,330.0,5,318.0,5.3,4,Yes,8,5
+Student: 544,23,Female,Complicated,Graduate,Chile,Rest of World,LinkedIn,162.0,2,426.0,7.1,1,No,4,8
+Student: 545,19,Male,In Relationship,Undergraduate,Colombia,Rest of World,Instagram,288.0,4,354.0,5.9,3,Yes,7,6
+Student: 546,20,Female,Single,Undergraduate,Peru,Rest of World,TikTok,330.0,5,336.0,5.6,4,Yes,8,5
+Student: 547,22,Male,In Relationship,Graduate,Venezuela,Rest of World,Facebook,198.0,3,402.0,6.7,2,No,5,7
+Student: 548,19,Female,Complicated,High School,Ecuador,Rest of World,Instagram,378.0,6,312.0,5.2,4,Yes,9,5
+Student: 549,21,Male,Single,Undergraduate,Uruguay,Rest of World,YouTube,228.0,3,384.0,6.4,2,No,6,7
+Student: 550,20,Female,In Relationship,Undergraduate,Paraguay,Rest of World,TikTok,282.0,4,348.0,5.8,3,Yes,7,6
+Student: 551,24,Male,Complicated,Graduate,Bolivia,Rest of World,LinkedIn,144.0,2,432.0,7.2,1,No,4,8
 Student: 552,19,Female,Single,High School,Costa Rica,North America,Instagram,342.0,5,330.0,5.5,4,Yes,8,5
 Student: 553,21,Male,In Relationship,Undergraduate,Panama,North America,Facebook,216.0,3,390.0,6.5,2,No,5,7
 Student: 554,20,Female,Complicated,Undergraduate,Jamaica,North America,Snapchat,294.0,4,336.0,5.6,3,Yes,7,6
@@ -220,7 +220,7 @@ Student: 717,20,Female,Single,Undergraduate,Sri Lanka,Asia,Facebook,252.0,4,534.
 Student: 718,22,Male,In Relationship,Graduate,Maldives,Asia,TikTok,270.0,4,245.99999999999997,4.1,4,Yes,8,6
 Student: 719,19,Female,Single,Undergraduate,USA,North America,Instagram,390.0,6,360.0,6.0,4,Yes,9,5
 Student: 720,21,Male,In Relationship,Graduate,UK,Europe,TikTok,348.0,5,390.0,6.5,3,Yes,7,6
-Student: 721,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,270.0,4,450.0,7.5,2,No,5,8
+Student: 721,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,270.0,4,450.0,7.5,2,No,5,8
 Student: 722,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,252.0,4,468.0,7.8,2,No,4,7
 Student: 723,19,Female,Single,Undergraduate,Japan,Asia,LINE,228.0,3,474.0,7.9,1,No,3,8
 Student: 724,21,Male,Single,Graduate,Italy,Europe,Instagram,330.0,5,408.0,6.8,3,Yes,7,6
@@ -228,7 +228,7 @@ Student: 725,20,Female,In Relationship,Undergraduate,South Korea,Asia,KakaoTalk,
 Student: 726,22,Male,Single,Graduate,Russia,Europe,VKontakte,288.0,4,432.0,7.2,2,No,5,7
 Student: 727,19,Female,In Relationship,Undergraduate,USA,North America,TikTok,420.0,7,348.0,5.8,4,Yes,9,4
 Student: 728,21,Male,Single,Graduate,UK,Europe,Instagram,330.0,5,402.0,6.7,3,Yes,7,6
-Student: 729,20,Female,In Relationship,Undergraduate,Australia,Oceania,Facebook,282.0,4,444.0,7.4,2,No,5,7
+Student: 729,20,Female,In Relationship,Undergraduate,Australia,Rest of World,Facebook,282.0,4,444.0,7.4,2,No,5,7
 Student: 730,22,Male,Single,Graduate,Germany,Europe,Instagram,240.0,4,474.0,7.9,1,No,4,8
 Student: 731,19,Female,Single,Undergraduate,Japan,Asia,LINE,210.0,3,480.0,8.0,1,No,3,8
 Student: 732,21,Male,In Relationship,Graduate,Italy,Europe,TikTok,342.0,5,390.0,6.5,3,Yes,8,5
@@ -236,7 +236,7 @@ Student: 733,20,Female,Single,Undergraduate,South Korea,Asia,KakaoTalk,300.0,5,4
 Student: 734,22,Male,In Relationship,Graduate,Russia,Europe,VKontakte,270.0,4,444.0,7.4,2,No,5,7
 Student: 735,19,Female,Single,Undergraduate,USA,North America,Instagram,408.0,6,354.0,5.9,4,Yes,9,4
 Student: 736,21,Male,In Relationship,Graduate,UK,Europe,Facebook,336.0,5,396.0,6.6,3,Yes,7,6
-Student: 737,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,276.0,4,438.0,7.3,2,No,5,7
+Student: 737,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,276.0,4,438.0,7.3,2,No,5,7
 Student: 738,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,245.99999999999997,4,462.0,7.7,2,No,4,8
 Student: 739,19,Female,Single,Undergraduate,Japan,Asia,LINE,222.0,3,468.0,7.8,1,No,3,8
 Student: 740,21,Male,Single,Graduate,Italy,Europe,Instagram,324.0,5,402.0,6.7,3,Yes,7,5
@@ -244,7 +244,7 @@ Student: 741,20,Female,In Relationship,Undergraduate,South Korea,Asia,KakaoTalk,
 Student: 742,22,Male,Single,Graduate,Russia,Europe,VKontakte,282.0,4,438.0,7.3,2,No,5,7
 Student: 743,19,Female,In Relationship,Undergraduate,USA,North America,TikTok,414.0,6,342.0,5.7,4,Yes,9,4
 Student: 744,21,Male,Single,Graduate,UK,Europe,Instagram,342.0,5,384.0,6.4,3,Yes,7,6
-Student: 745,20,Female,In Relationship,Undergraduate,Australia,Oceania,Facebook,288.0,4,432.0,7.2,2,No,5,7
+Student: 745,20,Female,In Relationship,Undergraduate,Australia,Rest of World,Facebook,288.0,4,432.0,7.2,2,No,5,7
 Student: 746,22,Male,Single,Graduate,Germany,Europe,Instagram,234.0,3,468.0,7.8,1,No,4,8
 Student: 747,19,Female,Single,Undergraduate,Japan,Asia,LINE,216.0,3,486.0,8.1,1,No,3,8
 Student: 748,21,Male,In Relationship,Graduate,Italy,Europe,TikTok,336.0,5,396.0,6.6,3,Yes,8,5
@@ -252,7 +252,7 @@ Student: 749,20,Female,Single,Undergraduate,South Korea,Asia,KakaoTalk,294.0,4,4
 Student: 750,22,Male,In Relationship,Graduate,Russia,Europe,VKontakte,276.0,4,450.0,7.5,2,No,5,7
 Student: 751,19,Female,Single,Undergraduate,USA,North America,Instagram,402.0,6,348.0,5.8,4,Yes,9,4
 Student: 752,21,Male,In Relationship,Graduate,UK,Europe,Facebook,324.0,5,390.0,6.5,3,Yes,7,6
-Student: 753,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,264.0,4,444.0,7.4,2,No,5,7
+Student: 753,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,264.0,4,444.0,7.4,2,No,5,7
 Student: 754,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,240.0,4,456.0,7.6,2,No,4,8
 Student: 755,19,Female,Single,Undergraduate,Japan,Asia,LINE,204.0,3,491.99999999999994,8.2,1,No,3,8
 Student: 756,21,Male,Single,Graduate,Italy,Europe,Instagram,318.0,5,408.0,6.8,3,Yes,7,5
@@ -260,7 +260,7 @@ Student: 757,20,Female,In Relationship,Undergraduate,South Korea,Asia,KakaoTalk,
 Student: 758,22,Male,Single,Graduate,Russia,Europe,VKontakte,264.0,4,456.0,7.6,2,No,5,7
 Student: 759,19,Female,In Relationship,Undergraduate,USA,North America,TikTok,396.0,6,336.0,5.6,4,Yes,9,4
 Student: 760,21,Male,Single,Graduate,UK,Europe,Instagram,318.0,5,378.0,6.3,3,Yes,7,6
-Student: 761,20,Female,In Relationship,Undergraduate,Australia,Oceania,Facebook,258.0,4,450.0,7.5,2,No,5,7
+Student: 761,20,Female,In Relationship,Undergraduate,Australia,Rest of World,Facebook,258.0,4,450.0,7.5,2,No,5,7
 Student: 762,22,Male,Single,Graduate,Germany,Europe,Instagram,228.0,3,462.0,7.7,1,No,4,8
 Student: 763,19,Female,Single,Undergraduate,Japan,Asia,LINE,198.0,3,498.00000000000006,8.3,1,No,3,8
 Student: 764,21,Male,In Relationship,Graduate,Italy,Europe,TikTok,312.0,5,414.0,6.9,3,Yes,8,5
@@ -268,7 +268,7 @@ Student: 765,20,Female,Single,Undergraduate,South Korea,Asia,KakaoTalk,288.0,4,4
 Student: 766,22,Male,In Relationship,Graduate,Russia,Europe,VKontakte,258.0,4,462.0,7.7,2,No,5,7
 Student: 767,19,Female,Single,Undergraduate,USA,North America,Instagram,384.0,6,342.0,5.7,4,Yes,9,4
 Student: 768,21,Male,In Relationship,Graduate,UK,Europe,Facebook,312.0,5,384.0,6.4,3,Yes,7,6
-Student: 769,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,270.0,4,438.0,7.3,2,No,5,7
+Student: 769,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,270.0,4,438.0,7.3,2,No,5,7
 Student: 770,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,222.0,3,468.0,7.8,1,No,4,8
 Student: 771,19,Female,Single,Undergraduate,Japan,Asia,LINE,192.0,3,504.0,8.4,1,No,3,8
 Student: 772,21,Male,Single,Graduate,Italy,Europe,Instagram,324.0,5,402.0,6.7,3,Yes,7,5
@@ -276,7 +276,7 @@ Student: 773,20,Female,In Relationship,Undergraduate,South Korea,Asia,KakaoTalk,
 Student: 774,22,Male,Single,Graduate,Russia,Europe,VKontakte,252.0,4,468.0,7.8,2,No,5,7
 Student: 775,19,Female,In Relationship,Undergraduate,USA,North America,TikTok,396.0,6,330.0,5.5,4,Yes,9,4
 Student: 776,21,Male,Single,Graduate,UK,Europe,Instagram,306.0,5,390.0,6.5,3,Yes,7,6
-Student: 777,20,Female,In Relationship,Undergraduate,Australia,Oceania,Facebook,264.0,4,444.0,7.4,2,No,5,7
+Student: 777,20,Female,In Relationship,Undergraduate,Australia,Rest of World,Facebook,264.0,4,444.0,7.4,2,No,5,7
 Student: 778,22,Male,Single,Graduate,Germany,Europe,Instagram,216.0,3,474.0,7.9,1,No,4,8
 Student: 779,19,Female,Single,Undergraduate,Japan,Asia,LINE,186.0,3,510.0,8.5,1,No,3,8
 Student: 780,21,Male,In Relationship,Graduate,Italy,Europe,TikTok,318.0,5,408.0,6.8,3,Yes,8,5
@@ -284,7 +284,7 @@ Student: 781,20,Female,Single,Undergraduate,South Korea,Asia,KakaoTalk,276.0,4,4
 Student: 782,22,Male,In Relationship,Graduate,Russia,Europe,VKontakte,245.99999999999997,4,474.0,7.9,2,No,5,7
 Student: 783,19,Female,Single,Undergraduate,USA,North America,Instagram,402.0,6,324.0,5.4,4,Yes,9,4
 Student: 784,21,Male,In Relationship,Graduate,UK,Europe,Facebook,300.0,5,396.0,6.6,3,Yes,7,6
-Student: 785,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,258.0,4,450.0,7.5,2,No,5,7
+Student: 785,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,258.0,4,450.0,7.5,2,No,5,7
 Student: 786,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,210.0,3,480.0,8.0,1,No,4,8
 Student: 787,19,Female,Single,Undergraduate,Japan,Asia,LINE,180.0,3,516.0,8.6,1,No,3,8
 Student: 788,21,Male,Single,Graduate,Italy,Europe,Instagram,312.0,5,414.0,6.9,3,Yes,7,5
@@ -292,7 +292,7 @@ Student: 789,20,Female,In Relationship,Undergraduate,South Korea,Asia,KakaoTalk,
 Student: 790,22,Male,Single,Graduate,Russia,Europe,VKontakte,240.0,4,480.0,8.0,2,No,5,7
 Student: 791,19,Female,In Relationship,Undergraduate,USA,North America,TikTok,408.0,6,318.0,5.3,4,Yes,9,4
 Student: 792,21,Male,Single,Graduate,UK,Europe,Instagram,294.0,4,402.0,6.7,3,Yes,7,6
-Student: 793,20,Female,In Relationship,Undergraduate,Australia,Oceania,Facebook,252.0,4,456.0,7.6,2,No,5,7
+Student: 793,20,Female,In Relationship,Undergraduate,Australia,Rest of World,Facebook,252.0,4,456.0,7.6,2,No,5,7
 Student: 794,22,Male,Single,Graduate,Germany,Europe,Instagram,204.0,3,486.0,8.1,1,No,4,8
 Student: 795,19,Female,Single,Undergraduate,Japan,Asia,LINE,174.0,2,522.0,8.7,1,No,3,8
 Student: 796,21,Male,In Relationship,Graduate,Italy,Europe,TikTok,306.0,5,420.0,7.0,3,Yes,8,5
@@ -300,7 +300,7 @@ Student: 797,20,Female,Single,Undergraduate,South Korea,Asia,KakaoTalk,264.0,4,4
 Student: 798,22,Male,In Relationship,Graduate,Russia,Europe,VKontakte,234.0,3,486.0,8.1,2,No,5,7
 Student: 799,19,Female,Single,Undergraduate,USA,North America,Instagram,414.0,6,312.0,5.2,4,Yes,9,4
 Student: 800,21,Male,In Relationship,Graduate,UK,Europe,Facebook,288.0,4,408.0,6.8,3,Yes,7,6
-Student: 801,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,245.99999999999997,4,462.0,7.7,2,No,5,7
+Student: 801,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,245.99999999999997,4,462.0,7.7,2,No,5,7
 Student: 802,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,198.0,3,491.99999999999994,8.2,1,No,4,8
 Student: 803,19,Female,Single,Undergraduate,Japan,Asia,LINE,168.0,2,528.0,8.8,1,No,3,8
 Student: 804,21,Male,Single,Graduate,Italy,Europe,Instagram,300.0,5,426.0,7.1,3,Yes,7,5
@@ -308,7 +308,7 @@ Student: 805,20,Female,In Relationship,Undergraduate,South Korea,Asia,KakaoTalk,
 Student: 806,22,Male,Single,Graduate,Russia,Europe,VKontakte,228.0,3,491.99999999999994,8.2,2,No,5,7
 Student: 807,19,Female,In Relationship,Undergraduate,USA,North America,TikTok,420.0,7,306.0,5.1,4,Yes,9,4
 Student: 808,21,Male,Single,Graduate,UK,Europe,Instagram,282.0,4,414.0,6.9,3,Yes,7,6
-Student: 809,20,Female,In Relationship,Undergraduate,Australia,Oceania,Facebook,240.0,4,468.0,7.8,2,No,5,7
+Student: 809,20,Female,In Relationship,Undergraduate,Australia,Rest of World,Facebook,240.0,4,468.0,7.8,2,No,5,7
 Student: 810,22,Male,Single,Graduate,Germany,Europe,Instagram,192.0,3,498.00000000000006,8.3,1,No,4,8
 Student: 811,19,Female,Single,Undergraduate,Japan,Asia,LINE,162.0,2,534.0,8.9,1,No,3,8
 Student: 812,21,Male,In Relationship,Graduate,Italy,Europe,TikTok,294.0,4,432.0,7.2,3,Yes,8,5
@@ -316,7 +316,7 @@ Student: 813,20,Female,Single,Undergraduate,South Korea,Asia,KakaoTalk,252.0,4,4
 Student: 814,22,Male,In Relationship,Graduate,Russia,Europe,VKontakte,222.0,3,498.00000000000006,8.3,2,No,5,7
 Student: 815,19,Female,Single,Undergraduate,USA,North America,Instagram,426.0,7,300.0,5.0,4,Yes,9,4
 Student: 816,21,Male,In Relationship,Graduate,UK,Europe,Facebook,276.0,4,420.0,7.0,3,Yes,7,6
-Student: 817,20,Female,Single,Undergraduate,Australia,Oceania,Instagram,234.0,3,474.0,7.9,2,No,5,7
+Student: 817,20,Female,Single,Undergraduate,Australia,Rest of World,Instagram,234.0,3,474.0,7.9,2,No,5,7
 Student: 818,22,Male,In Relationship,Graduate,Germany,Europe,Facebook,186.0,3,504.0,8.4,1,No,4,8
 Student: 819,19,Female,Single,Undergraduate,Spain,Europe,Instagram,312.0,5,408.0,6.8,3,Yes,7,6
 Student: 820,21,Male,In Relationship,Graduate,Denmark,Europe,Facebook,245.99999999999997,4,468.0,7.8,2,No,4,8
@@ -496,70 +496,70 @@ Student: 993,22,Male,Single,Graduate,Turkey,Europe,TikTok,228.0,3,504.0,8.4,3,Ye
 Student: 994,21,Male,Single,Graduate,Mexico,North America,WhatsApp,438.0,7,294.0,4.9,3,Yes,7,6
 Student: 995,20,Female,In Relationship,Undergraduate,France,Europe,Instagram,168.0,2,552.0,9.2,2,No,5,7
 Student: 996,22,Male,Single,Graduate,Canada,North America,TikTok,216.0,3,516.0,8.6,3,Yes,7,6
-Student: 997,19,Female,Single,Undergraduate,Brazil,South America,WhatsApp,372.0,6,378.0,6.3,3,Yes,7,6
+Student: 997,19,Female,Single,Undergraduate,Brazil,Rest of World,WhatsApp,372.0,6,378.0,6.3,3,Yes,7,6
 Student: 998,21,Male,In Relationship,Graduate,China,Asia,WeChat,270.0,4,468.0,7.8,2,No,5,7
 Student: 999,20,Female,Single,Undergraduate,Netherlands,Europe,Instagram,228.0,3,491.99999999999994,8.2,2,No,4,8
-Student: 1000,22,Male,In Relationship,Graduate,New Zealand,Oceania,Instagram,282.0,4,450.0,7.5,3,Yes,6,7
+Student: 1000,22,Male,In Relationship,Graduate,New Zealand,Rest of World,Instagram,282.0,4,450.0,7.5,3,Yes,6,7
 Student: 1001,19,Female,Single,Undergraduate,Singapore,Asia,TikTok,306.0,5,420.0,7.0,3,Yes,7,6
 Student: 1002,21,Male,Single,Graduate,Malaysia,Asia,WhatsApp,330.0,5,408.0,6.8,3,Yes,7,6
 Student: 1003,20,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,390.0,6,390.0,6.5,4,Yes,8,5
 Student: 1004,22,Male,Single,Graduate,Poland,Europe,Facebook,252.0,4,474.0,7.9,2,No,5,7
 Student: 1005,19,Female,In Relationship,Undergraduate,India,Asia,WhatsApp,408.0,6,360.0,6.0,4,Yes,8,5
 Student: 1006,21,Male,Single,Graduate,Canada,North America,Instagram,288.0,4,444.0,7.4,3,Yes,6,7
-Student: 1007,20,Female,Single,Undergraduate,Brazil,South America,Instagram,366.0,6,384.0,6.4,3,Yes,7,6
+Student: 1007,20,Female,Single,Undergraduate,Brazil,Rest of World,Instagram,366.0,6,384.0,6.4,3,Yes,7,6
 Student: 1008,22,Male,In Relationship,Graduate,China,Asia,WeChat,264.0,4,474.0,7.9,2,No,5,7
 Student: 1009,19,Female,Single,Undergraduate,Netherlands,Europe,TikTok,222.0,3,498.00000000000006,8.3,2,No,4,8
-Student: 1010,21,Male,In Relationship,Graduate,New Zealand,Oceania,Instagram,276.0,4,456.0,7.6,3,Yes,6,7
+Student: 1010,21,Male,In Relationship,Graduate,New Zealand,Rest of World,Instagram,276.0,4,456.0,7.6,3,Yes,6,7
 Student: 1011,20,Female,Single,Undergraduate,Singapore,Asia,TikTok,312.0,5,414.0,6.9,3,Yes,7,6
 Student: 1012,22,Male,Single,Graduate,Malaysia,Asia,WhatsApp,336.0,5,402.0,6.7,3,Yes,7,6
 Student: 1013,19,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,396.0,6,384.0,6.4,4,Yes,8,5
 Student: 1014,21,Male,Single,Graduate,Poland,Europe,Facebook,245.99999999999997,4,480.0,8.0,2,No,5,7
 Student: 1015,20,Female,In Relationship,Undergraduate,India,Asia,WhatsApp,414.0,6,354.0,5.9,4,Yes,8,5
 Student: 1016,22,Male,Single,Graduate,Canada,North America,TikTok,282.0,4,450.0,7.5,3,Yes,6,7
-Student: 1017,19,Female,Single,Undergraduate,Brazil,South America,WhatsApp,360.0,6,390.0,6.5,3,Yes,7,6
+Student: 1017,19,Female,Single,Undergraduate,Brazil,Rest of World,WhatsApp,360.0,6,390.0,6.5,3,Yes,7,6
 Student: 1018,21,Male,In Relationship,Graduate,China,Asia,WeChat,258.0,4,480.0,8.0,2,No,5,7
 Student: 1019,20,Female,Single,Undergraduate,Netherlands,Europe,Instagram,216.0,3,504.0,8.4,2,No,4,8
-Student: 1020,22,Male,In Relationship,Graduate,New Zealand,Oceania,Facebook,270.0,4,462.0,7.7,3,Yes,6,7
+Student: 1020,22,Male,In Relationship,Graduate,New Zealand,Rest of World,Facebook,270.0,4,462.0,7.7,3,Yes,6,7
 Student: 1021,19,Female,Single,Undergraduate,Singapore,Asia,TikTok,318.0,5,408.0,6.8,3,Yes,7,6
 Student: 1022,21,Male,Single,Graduate,Malaysia,Asia,WhatsApp,342.0,5,396.0,6.6,3,Yes,7,6
 Student: 1023,20,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,402.0,6,378.0,6.3,4,Yes,8,5
 Student: 1024,22,Male,Single,Graduate,Poland,Europe,Facebook,240.0,4,486.0,8.1,2,No,5,7
 Student: 1025,19,Female,In Relationship,Undergraduate,India,Asia,WhatsApp,420.0,7,348.0,5.8,4,Yes,8,5
 Student: 1026,21,Male,Single,Graduate,Canada,North America,Instagram,276.0,4,456.0,7.6,3,Yes,6,7
-Student: 1027,20,Female,Single,Undergraduate,Brazil,South America,TikTok,354.0,5,396.0,6.6,3,Yes,7,6
+Student: 1027,20,Female,Single,Undergraduate,Brazil,Rest of World,TikTok,354.0,5,396.0,6.6,3,Yes,7,6
 Student: 1028,22,Male,In Relationship,Graduate,China,Asia,WeChat,252.0,4,486.0,8.1,2,No,5,7
 Student: 1029,19,Female,Single,Undergraduate,Netherlands,Europe,Instagram,210.0,3,510.0,8.5,2,No,4,8
-Student: 1030,21,Male,In Relationship,Graduate,New Zealand,Oceania,Facebook,264.0,4,468.0,7.8,3,Yes,6,7
+Student: 1030,21,Male,In Relationship,Graduate,New Zealand,Rest of World,Facebook,264.0,4,468.0,7.8,3,Yes,6,7
 Student: 1031,20,Female,Single,Undergraduate,Singapore,Asia,TikTok,324.0,5,402.0,6.7,3,Yes,7,6
 Student: 1032,22,Male,Single,Graduate,Malaysia,Asia,WhatsApp,348.0,5,390.0,6.5,3,Yes,7,6
 Student: 1033,19,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,408.0,6,372.0,6.2,4,Yes,8,5
 Student: 1034,21,Male,Single,Graduate,Poland,Europe,Facebook,234.0,3,491.99999999999994,8.2,2,No,5,7
 Student: 1035,20,Female,In Relationship,Undergraduate,India,Asia,WhatsApp,426.0,7,342.0,5.7,4,Yes,8,5
 Student: 1036,22,Male,Single,Graduate,Canada,North America,TikTok,270.0,4,462.0,7.7,3,Yes,6,7
-Student: 1037,19,Female,Single,Undergraduate,Brazil,South America,WhatsApp,348.0,5,402.0,6.7,3,Yes,7,6
+Student: 1037,19,Female,Single,Undergraduate,Brazil,Rest of World,WhatsApp,348.0,5,402.0,6.7,3,Yes,7,6
 Student: 1038,21,Male,In Relationship,Graduate,China,Asia,WeChat,245.99999999999997,4,491.99999999999994,8.2,2,No,5,7
 Student: 1039,20,Female,Single,Undergraduate,Netherlands,Europe,Instagram,204.0,3,516.0,8.6,2,No,4,8
-Student: 1040,22,Male,In Relationship,Graduate,New Zealand,Oceania,Instagram,258.0,4,474.0,7.9,3,Yes,6,7
+Student: 1040,22,Male,In Relationship,Graduate,New Zealand,Rest of World,Instagram,258.0,4,474.0,7.9,3,Yes,6,7
 Student: 1041,19,Female,Single,Undergraduate,Singapore,Asia,TikTok,330.0,5,396.0,6.6,3,Yes,7,6
 Student: 1042,21,Male,Single,Graduate,Malaysia,Asia,WhatsApp,354.0,5,384.0,6.4,3,Yes,7,6
 Student: 1043,20,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,414.0,6,366.0,6.1,4,Yes,8,5
 Student: 1044,22,Male,Single,Graduate,Poland,Europe,Facebook,228.0,3,498.00000000000006,8.3,2,No,5,7
 Student: 1045,19,Female,In Relationship,Undergraduate,India,Asia,WhatsApp,432.0,7,336.0,5.6,4,Yes,8,5
 Student: 1046,21,Male,Single,Graduate,Canada,North America,Instagram,264.0,4,468.0,7.8,3,Yes,6,7
-Student: 1047,20,Female,Single,Undergraduate,Brazil,South America,TikTok,342.0,5,408.0,6.8,3,Yes,7,6
+Student: 1047,20,Female,Single,Undergraduate,Brazil,Rest of World,TikTok,342.0,5,408.0,6.8,3,Yes,7,6
 Student: 1048,22,Male,In Relationship,Graduate,China,Asia,WeChat,240.0,4,498.00000000000006,8.3,2,No,5,7
 Student: 1049,19,Female,Single,Undergraduate,Netherlands,Europe,Instagram,198.0,3,522.0,8.7,2,No,4,8
-Student: 1050,21,Male,In Relationship,Graduate,New Zealand,Oceania,Facebook,252.0,4,480.0,8.0,3,Yes,6,7
+Student: 1050,21,Male,In Relationship,Graduate,New Zealand,Rest of World,Facebook,252.0,4,480.0,8.0,3,Yes,6,7
 Student: 1051,20,Female,Single,Undergraduate,Singapore,Asia,TikTok,336.0,5,390.0,6.5,3,Yes,7,6
 Student: 1052,22,Male,Single,Graduate,Malaysia,Asia,WhatsApp,360.0,6,378.0,6.3,3,Yes,7,6
 Student: 1053,19,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,420.0,7,360.0,6.0,4,Yes,8,5
 Student: 1054,21,Male,Single,Graduate,Poland,Europe,Facebook,222.0,3,504.0,8.4,2,No,5,7
 Student: 1055,20,Female,In Relationship,Undergraduate,India,Asia,WhatsApp,438.0,7,330.0,5.5,4,Yes,8,5
 Student: 1056,22,Male,Single,Graduate,Canada,North America,TikTok,258.0,4,474.0,7.9,3,Yes,6,7
-Student: 1057,19,Female,Single,Undergraduate,Brazil,South America,WhatsApp,336.0,5,414.0,6.9,3,Yes,7,6
+Student: 1057,19,Female,Single,Undergraduate,Brazil,Rest of World,WhatsApp,336.0,5,414.0,6.9,3,Yes,7,6
 Student: 1058,21,Male,In Relationship,Graduate,China,Asia,WeChat,234.0,3,504.0,8.4,2,No,5,7
 Student: 1059,20,Female,Single,Undergraduate,Netherlands,Europe,Instagram,192.0,3,528.0,8.8,2,No,4,8
-Student: 1060,22,Male,In Relationship,Graduate,New Zealand,Oceania,Instagram,245.99999999999997,4,486.0,8.1,3,Yes,6,7
+Student: 1060,22,Male,In Relationship,Graduate,New Zealand,Rest of World,Instagram,245.99999999999997,4,486.0,8.1,3,Yes,6,7
 Student: 1061,19,Female,Single,Undergraduate,Singapore,Asia,TikTok,342.0,5,384.0,6.4,3,Yes,7,6
 Student: 1062,21,Male,Single,Graduate,Malaysia,Asia,WhatsApp,366.0,6,372.0,6.2,3,Yes,7,6
 Student: 1063,20,Female,In Relationship,Undergraduate,UAE,Asia,Instagram,426.0,7,354.0,5.9,4,Yes,8,5
