@@ -20,3 +20,17 @@ def average_usage (x):
         return 3
     else:
         return 2
+    
+
+# Pipeline
+    def create_pipeline(n_components=10, n_clusters=10):
+    '''
+    A pipeline created to scale and encode categoricals, 
+    set number of PCA components and clusters to be used with different parameters.
+    '''
+    pipeline = Pipeline([
+        ('preprocessor', preprocessor),
+        ('pca', PCA(n_components=n_components)),
+        ('kmeans', KMeans(n_clusters=n_clusters, random_state=42, n_init=10))
+    ])
+    return pipeline
