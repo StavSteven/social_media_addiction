@@ -143,3 +143,67 @@ A strip plot was used to show each user’s sleep duration against their addicti
 ![Addiction level versus sleep score](/images/h4_addiction_v_sleep.png)
 
 **_Business decision_** Given the strong negative association between addiction levels and sleep duration, wellbeing and academic support teams should consider targeted guidance to help students manage excessive social media use, particularly late-night scrolling. Recommendations may include digital curfews, app timers, or structured bedtime routines. Improving sleep hygiene for highly addicted users could support better mental health, higher academic performance, and overall wellbeing.
+
+---
+
+# Summary of findings v hypothesis
+
+| Hypothesis                                     | Statistical Test            | Statistic / Correlation | p-value       | Interpretation / Result                             |
+| ---------------------------------------------- | --------------------------- | ----------------------- | ------------- | --------------------------------------------------- |
+| H1: Higher daily social media use → less sleep | Spearman's rank correlation | ρ = -0.813              | 3.13 × 10⁻¹⁶⁶ | Strong negative correlation, reject H₀              |
+| H2: More conflicts → lower mental health       | Spearman's rank correlation | ρ = -0.908              | 4.49 × 10⁻²⁶⁶ | Strong negative correlation, reject H₀              |
+| H3: TikTok users have lowest mental health     | Kruskal–Wallis H-test       | H = 58.90               | 1.62 × 10⁻¹³  | Significant difference between platforms, reject H₀ |
+| H4: Higher addiction → less sleep              | Spearman's rank correlation | ρ = -0.786              | 2.44 × 10⁻¹⁴⁸ | Strong negative correlation, reject H₀              |
+
+---
+
+## Project plan
+
+![Project board](/images/project_board.png)
+
+This project followed a structured data analytics workflow designed to ensure the dataset was handled consistently from collection through to interpretation, implementing data analysis best practices, GDPR regulation and taking an ethical approach to handling the data. The steps below outline the process and the rationale behind each stage.
+
+### 1. Data Collection
+
+-   The dataset was sourced from Kaggle and downloaded as a CSV file.
+-   The only field that could be used to identify an individual was the student ID so these were modified during the data transformation stage to protect anonyminity.
+-   The dataset contained demographic details, social media usage metrics, addiction scores, mental health scores, and behavioural indicators such as sleep duration and academic impact.
+
+### 2. Data preparation
+
+-   Loaded and inspected the dataset using pandas
+-   Checked for missing values, duplicates, and inconsistencies in categorical fields.
+-   Standardised column names and data types for ease of use.
+-   Created additional calculated fields (e.g., converting minutes to hours).
+
+### 3. Exploratory data analysis (EDA)
+
+-   Generated summary statistics and visualised distributions to understand the shape of the data and outliers.
+-   Explored initial relationships using scatter plots, violin plots and strip plots
+-   This stage helped guide which hypotheses to test and confirmed that non-parametric methods were more suitable due to skewed data and inconsistent group sizes.
+
+### 4. Hypothesis testing and statistical analysis
+
+-   Used statistical tests such as Spearman’s rank, Kruskal–Wallis and Chi-Square tests to assess relationships and comparisons amongsts different fields in the dataset.
+-   These were selected because they do not assume normality and are appropriate for survey-based, unevenly distributed data.
+
+### 5. Intepretation of findings
+
+-   Created user friendly plots using Seaborn, Matplotlib and Plotly, including boxplots, scatter plots, violin plots, and bar charts.
+-   Visualisations were used alongside statistical output to provide intuitive explanations of trends.
+-   Dashboard created to allow business user to drill down on specific variables to visualise their own findings.
+-   Combined statistical and visual elements to provide evidence of findings to reject null hypotheses.
+-   Compared findings to identify consistent trends within clusters of points in ml learning model
+
+### 6. Reporting and documentation
+
+-   Consolidated analysis into a structured README with clear sections for hypotheses, methodology, results, limitations, and business decisions.
+-   Ensured all steps were reproducible by documenting the code workflow and visual outputs.
+
+### 7. Justifications of methodology
+
+-   The dataset consists mainly of ordinal and non-normal distributions, meaning non-parametric tests (Spearman, Kruskal–Wallis, Chi-Square) are appropriate.
+-   Correlation tests were chosen to quantify direction and strength of relationships identified in EDA.
+-   Group-comparison tests were selected where platform-based behavioural differences were expected.
+-   Visual methods (strip plots, boxplots, violin plots) were chosen because they communicate both the distribution and concentration of responses clearly, especially for survey datasets.
+-   The combination of statistical tests and visual analysis ensured findings were interpretable by both technical and non technical users
