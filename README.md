@@ -36,4 +36,37 @@ This project focuses on exploring the relationship between an student's social m
 
 The student social media dataset was sourced from Kaggle: https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships
 
-It contains records of students ranging from 18-25, it documents their behaviours, primarily on social media but also in their wide
+It contains records of students ranging from 18-25, from all over the world. It records their social media usage, preferred platform, health and relationship dynamics.
+
+| Field Name                     | Description                                                                               |
+| ------------------------------ | ----------------------------------------------------------------------------------------- |
+| `new_student_id`               | Unique identifier for each student in the dataset.                                        |
+| `age`                          | Age of the student (in years).                                                            |
+| `gender`                       | Gender of the student (e.g., Male, Female, Other).                                        |
+| `relationship_status`          | Current relationship status (e.g., Single, In a Relationship, Married).                   |
+| `academic_level`               | Student's education level (e.g., High School, Undergraduate, Graduate).                   |
+| `country`                      | Country where the student resides.                                                        |
+| `continents`                   | Continent corresponding to the student's country.                                         |
+| `most_used_platform`           | Social media platform the student uses most frequently.                                   |
+| `average_daily_usage_minutes`  | Average time spent on social media per day (in minutes).                                  |
+| `average_daily_use_by_hour`    | Distribution of social media usage across hours of the day.                               |
+| `sleep_per_night_minutes`      | Total sleep time per night (in minutes).                                                  |
+| `sleep_hours_per_night`        | Total sleep time per night (in hours).                                                    |
+| `conflicts_over_social_media`  | Indicates whether social media usage causes conflicts in personal relationships (Yes/No). |
+| `affects_academic_performance` | Indicates whether social media usage negatively affects academic performance (Yes/No).    |
+| `addicted_score`               | Score measuring the level of social media addiction (based on survey responses).          |
+| `mental_health_score`          | Score measuring mental health status or impact (based on survey responses).               |
+
+## Business requirements
+
+There were no business requirements supplied with this dataset so I have created a scenario where the dataset has been provided by a health professional working in education providing wellbeing advice to students.
+They have asked to find out how social media activity affects students academic performance, whether there are any other patterns that could provide causation for lower attainment levels and mental health scores. This could highlight a group of students that are at risk and could be targeted for intervention by their educational institution.
+
+## Hypothesis and how to validate?
+
+### Format:
+
+-   Hypothesis:
+    _This will be tested by_
+
+**Result:**
