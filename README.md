@@ -66,20 +66,22 @@ They have asked to find out how social media activity affects students academic 
 
 ### Format:
 
--   Hypothesis:
-    H₀ -
-    H₁ -
+-   Hypothesis:  
+    H₀ -  
+    H₁ -  
     _This will be tested by_
 
 **Result:**
 
+**_Business decision_**
+
 ---
 
--   Hypothesis 1: Average daily use of social media will have a negative impact on sleep per night.
+-   **Hypothesis 1: Average daily use of social media will have a negative impact on sleep per night.**
     H₀ - Null hypothesis: There is no relationship between average daily social media use and sleep per night.
     H₁ - Alternative Hypothesis Higher average daily social media use has a negative impact on sleep per night.
 
-_This will be tested statistically using spearman's rank but will also be visualised on a scatter plot to see whether there is a relationship between the two values_
+_This will be tested statistically using spearman's rank and visualised on a scatter plot to see whether there is a relationship between the two values_
 
 **Result:** We can reject the null hypothesis that there is no relationship between daily social media usage and sleep time.
 **The correlation score between the two values was -0.81** meaning that in most cases as one value increased the other decreased. An increase in screen time resulted in sleep deficit which could have a knock on effect to academic studies and mental health score, leading to strained relationships with friends, family members and peers.
@@ -87,4 +89,20 @@ _This will be tested statistically using spearman's rank but will also be visual
 
 ![Average use of social media versus sleep score](/images/h1_usage_v_sleep.png)
 
+**_Business decision_** There have been many wider studies that show the importance for any individual to get the required amount of sleep (between 6-9 hours per night), no less people in full time education studying for exams. We would recommend people try to cut down on time spent on social media by putting time limits on their apps or staying off their phone close to a sensibly scheduled bedtime.
+
 ---
+
+-   **Hypothesis 2: An increased amount of conflicts over social media will lead to a lower mental health score**
+    H₀ - Null hypothesis: There is no relationship between conflicts on social media and mental health score
+    H₁ - Alternative Hypothesis Having a higher number of conflicts over social media will be associated to lower mental health scores
+
+_This will be tested statistically using spearman'srank and visualised on a violin plot to determine whether there is a relationship between the two values_
+
+**Result:** We can reject the null hypothesis that there is no relationship between an increase in social media conflicts having no bearing on mental health scores.
+**The correlation score between the two values was -0.91.** This means there is strong correlation between the two values, individuals that find themselves getting into public spats on social media often see their mental health suffer as a result.
+**With a pval < 0.05 (4.49 × 10⁻²⁶⁶)** we can reject the null hypothesis that there is no relationship between the two values.
+
+![Mental health scores versus the number of conflicts on social media](/images/h2_mental_health_conflicts.png)
+
+**_Business decision_** Looking at the violin plot we can see that there is a horrible trend between the two values that as the number of conflicts increases, the range of mental health scores those people have gets progressively lower. The median jumps down an entire mental health score per extra argument, so it pays to use the block button or take timeout instead of getting irate over social media. Lower mental health scores may have consequences beyond social media so it isn't worth getting involved in online spats.
