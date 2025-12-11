@@ -125,3 +125,21 @@ As I have included whether specific platforms have effected academic performance
 ![Top 3 platforms - Mental health scores & academic studies](/images/top_platform_mental_health_plotly.html)
 
 **_Business decision_** Based on the strong association between TikTok use, reduced mental health scores, and frequent reports of academic disruption, it would be advisable for wellbeing and academic support teams to consider targeted interventions for heavy TikTok users, pointing students in the direction of wellbeing services to raise awareness of the importance of balance between online and offline. Reducing excessive TikTok consumption may help improve both mental wellbeing and academic performance.
+
+---
+
+-   **Hypothesis 4: Addiction level has an impact on sleep duration**
+    H₀ – Null hypothesis: Addiction level has little to no impact on sleep duration.
+    H₁ – Alternative hypothesis: Higher addiction levels will reduce sleep duration.
+
+_This will be tested statistically using Spearman’s rank correlation to assess the relationship between addiction level and sleep duration. The relationship will also be visualised using a combined boxplot and strip plot to show both the distribution and individual data points._
+
+A strip plot was used to show each user’s sleep duration against their addiction score. Because this created a dense cluster of datapoints, a boxplot was added in the background to highlight the median and interquartile ranges for each sleep-duration group.
+
+**Result:** We can reject the null hypothesis, as the data demonstrates that sleep duration decreases as addiction levels rise.
+**The correlation score between the two values was -0.79**, indicating a strong negative relationship: individuals with higher addiction levels consistently report fewer hours of sleep.
+**With a pval < 0.05 (2.44 × 10⁻¹⁴⁸)** far below the significance threshold there is extremely strong evidence that elevated social media addiction levels are associated with reduced sleep duration. The visualisation supports this finding, showing that users sleeping fewer than 5 hours per night cluster around higher addiction scores with a narrower range, while those sleeping more exhibit lower and more varied addiction levels.
+
+![Addiction level versus sleep score](/images/h4_addiction_v_sleep.png)
+
+**_Business decision_** Given the strong negative association between addiction levels and sleep duration, wellbeing and academic support teams should consider targeted guidance to help students manage excessive social media use, particularly late-night scrolling. Recommendations may include digital curfews, app timers, or structured bedtime routines. Improving sleep hygiene for highly addicted users could support better mental health, higher academic performance, and overall wellbeing.
