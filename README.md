@@ -97,7 +97,7 @@ _This will be tested statistically using spearman's rank and visualised on a sca
     H₀ - Null hypothesis: There is no relationship between conflicts on social media and mental health score
     H₁ - Alternative Hypothesis Having a higher number of conflicts over social media will be associated to lower mental health scores
 
-_This will be tested statistically using spearman'srank and visualised on a violin plot to determine whether there is a relationship between the two values_
+_This will be tested statistically using spearman's rank and visualised on a violin plot to determine whether there is a relationship between the two values_
 
 **Result:** We can reject the null hypothesis that there is no relationship between an increase in social media conflicts having no bearing on mental health scores.
 **The correlation score between the two values was -0.91.** This means there is strong correlation between the two values, individuals that find themselves getting into public spats on social media often see their mental health suffer as a result.
@@ -106,3 +106,22 @@ _This will be tested statistically using spearman'srank and visualised on a viol
 ![Mental health scores versus the number of conflicts on social media](/images/h2_mental_health_conflicts.png)
 
 **_Business decision_** Looking at the violin plot we can see that there is a horrible trend between the two values that as the number of conflicts increases, the range of mental health scores those people have gets progressively lower. The median jumps down an entire mental health score per extra argument, so it pays to use the block button or take timeout instead of getting irate over social media. Lower mental health scores may have consequences beyond social media so it isn't worth getting involved in online spats.
+
+---
+
+-   **Hypothesis 3: TikTok users will have the lowest mental health scores**
+    H₀ - Null hypothesis: There is no distinction to be made between the mental health score of TikTok users in comparison to other social media platforms
+    H₁ - Alternative Hypothesis TikTok users have a lower mental health score than users who used alternative platforms as their main source of social media
+
+_This will be tested statistically using a Kruskal–Wallis test to compare mental health scores across platforms, supported by a Chi-Square test to examine whether academic performance impact differs between platforms. A Plotly bar chart with line overlay was used to visualise user counts, mental health scores, and reported academic effects._
+
+For this hypothesis, the analysis focused on the three platforms with the largest user counts (TikTok, Instagram, Facebook). Other platforms were excluded from statistical testing due to insufficient sample sizes and unstable average mental health scores.
+
+**Result:** We can reject the null hypothesis as at least one platform differs significantly in mental health scores, supporting the observation that TikTok users experience lower wellbeing.
+**The Kruskal-Wallis test returned a H value of 58.90 & pval < 0.05 (1.62 × 10⁻¹³)** together demonstrate that there are differences between the platform user's mental health scores that are far too large to be random variation. The larger the H value indicates stronger evidence that at least one group differs.
+As I have included whether specific platforms have effected academic performance on the plot then it made sense to carry out a statistical test on that too.
+**The Chi-Square test returned a χ² value of 257.82 & pval < 0.05 (6.43 × 10⁻⁴⁹)** This result means that there is link between platform and impact on academic studies. That TikTok users are far more likely to report an impact on their studies than users of other social media sites. TikTok users demonstrated both the lowest mental health scores and the highest rate of reported academic impact (93.46%), compared with (68.95%) for Instagram and (30.08%) for Facebook, where a majority of users reported no academic effects. This pattern strongly supports the initial hypothesis.
+
+![Top 3 platforms - Mental health scores & academic studies](/images/top_platform_mental_health_plotly.html)
+
+**_Business decision_** Based on the strong association between TikTok use, reduced mental health scores, and frequent reports of academic disruption, it would be advisable for wellbeing and academic support teams to consider targeted interventions for heavy TikTok users, pointing students in the direction of wellbeing services to raise awareness of the importance of balance between online and offline. Reducing excessive TikTok consumption may help improve both mental wellbeing and academic performance.
