@@ -67,6 +67,24 @@ They have asked to find out how social media activity affects students academic 
 ### Format:
 
 -   Hypothesis:
+    H₀ -
+    H₁ -
     _This will be tested by_
 
 **Result:**
+
+---
+
+-   Hypothesis 1: Average daily use of social media will have a negative impact on sleep per night.
+    H₀ - Null hypothesis: There is no relationship between average daily social media use and sleep per night.
+    H₁ - Alternative Hypothesis Higher average daily social media use has a negative impact on sleep per night.
+
+_This will be tested statistically using spearman's rank but will also be visualised on a scatter plot to see whether there is a relationship between the two values_
+
+**Result:** We can reject the null hypothesis that there is no relationship between daily social media usage and sleep time.
+**The correlation score between the two values was -0.81** meaning that in most cases as one value increased the other decreased. An increase in screen time resulted in sleep deficit which could have a knock on effect to academic studies and mental health score, leading to strained relationships with friends, family members and peers.
+**With a pval < 0.05 (3.13 × 10⁻¹⁶⁶)** that is below the threshold of 0.05 to reject the null hypothesis and state that the relationship between the two values has not occured by chance.
+
+![Average use of social media versus sleep score](/images/h1_usage_v_sleep.png)
+
+---
