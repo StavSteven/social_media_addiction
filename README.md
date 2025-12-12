@@ -470,3 +470,20 @@ After this project I plan to focus my learning on:
 -   Continuing to master the skills used to inspect, clean and plot raw data
 -   Carry on making dashboards that can be used to present actionable business insights to stakeholders
 -   Go over the machine learning modules and work with data that allows me to try an alternative to clusters, perhaps linear regression or classification
+
+---
+
+## Main Data Analysis Libraries
+
+| **Library / Package**    | **Purpose in Project**                                                                                                                                                                        |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **pandas**               | Data loading, cleaning, wrangling, handling missing values, and managing tabular datasets.                                                                                                    |
+| **numpy**                | Core numerical computations, array manipulation, and support for statistical and ML preprocessing.                                                                                            |
+| **matplotlib.pyplot**    | Static visualisations including line charts, bar plots, histograms, and cluster plots.                                                                                                        |
+| **seaborn**              | Higher-level statistical visualisations such as violin plots, boxplots, KDE distributions, and heatmaps.                                                                                      |
+| **plotly.express**       | Interactive visualisations used throughout the dashboard for exploratory insights.                                                                                                            |
+| **plotly.graph_objects** | Advanced, fully customisable interactive figures for dashboards and detailed visual outputs.                                                                                                  |
+| **os**                   | Accessing project directories and handling file paths during data loading and export.                                                                                                         |
+| **scipy.stats**          | Running statistical tests including Spearman correlation, Kruskal–Wallis, Chi-Squared, t-tests, and ANOVA.                                                                                    |
+| **pingouin**             | Additional statistical tools, effect sizes, and non-parametric test support beyond SciPy’s core functions.                                                                                    |
+| **scikit-learn**         | Machine learning workflow, including preprocessing, encoding, scaling, dimensionality reduction (PCA), clustering (KMeans), pipeline construction, and cluster evaluation (silhouette score). |
