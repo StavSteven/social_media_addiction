@@ -76,7 +76,7 @@ They have asked to find out how social media activity affects students academic 
 
 **Result:**
 
-**_Business decision_**
+**_Business decision:_**
 
 ---
 
@@ -92,7 +92,7 @@ _This will be tested statistically using spearman's rank and visualised on a sca
 
 ![Average use of social media versus sleep score](/images/h1_usage_v_sleep.png)
 
-**_Business decision_** There have been many wider studies that show the importance for any individual to get the required amount of sleep (between 6-9 hours per night), no less people in full time education studying for exams. We would recommend people try to cut down on time spent on social media by putting time limits on their apps or staying off their phone close to a sensibly scheduled bedtime.
+**_Business decision:_** There have been many wider studies that show the importance for individuals to get the required amount of sleep (between 6-9 hours per night), even more so young people in full time education studying for exams. We would recommend people try to cut down on time spent on social media by putting time limits on their apps or staying off their phone close to a sensibly scheduled bedtime.
 
 ---
 
@@ -108,7 +108,7 @@ _This will be tested statistically using spearman's rank and visualised on a vio
 
 ![Mental health scores versus the number of conflicts on social media](/images/h2_mental_health_conflicts.png)
 
-**_Business decision_** Looking at the violin plot we can see that there is a horrible trend between the two values that as the number of conflicts increases, the range of mental health scores those people have gets progressively lower. The median jumps down an entire mental health score per extra argument, so it pays to use the block button or take timeout instead of getting irate over social media. Lower mental health scores may have consequences beyond social media so it isn't worth getting involved in online spats.
+**_Business decision:_** Looking at the violin plot we can see that there is a horrible trend between the two values that as the number of conflicts increases, the range of mental health scores those people have gets progressively lower. The median jumps down an entire mental health score per extra argument, so it pays to use the block button or take timeout instead of getting irate over social media. Lower mental health scores may have consequences beyond social media so it isn't worth getting involved in online spats.
 
 ---
 
@@ -127,7 +127,7 @@ As I have included whether specific platforms have effected academic performance
 
 ![View Plotly plot](/images/h3_top_platforms_v_mentalhealth.png)
 
-**_Business decision_** Based on the strong association between TikTok use, reduced mental health scores, and frequent reports of academic disruption, it would be advisable for wellbeing and academic support teams to consider targeted interventions for heavy TikTok users, pointing students in the direction of wellbeing services to raise awareness of the importance of balance between online and offline. Reducing excessive TikTok consumption may help improve both mental wellbeing and academic performance.
+**_Business decision:_** Based on the strong association between TikTok use, reduced mental health scores, and frequent reports of academic disruption, it would be advisable for wellbeing and academic support teams to consider targeted interventions for heavy TikTok users, pointing students in the direction of wellbeing services to raise awareness of the importance of balance between online and offline. Reducing excessive TikTok consumption may help improve both mental wellbeing and academic performance.
 
 ---
 
@@ -145,7 +145,7 @@ A strip plot was used to show each user’s sleep duration against their addicti
 
 ![Addiction level versus sleep score](/images/h4_addiction_v_sleep.png)
 
-**_Business decision_** Given the strong negative association between addiction levels and sleep duration, wellbeing and academic support teams should consider targeted guidance to help students manage excessive social media use, particularly late-night scrolling. Recommendations may include digital curfews, app timers, or structured bedtime routines. Improving sleep hygiene for highly addicted users could support better mental health, higher academic performance, and overall wellbeing.
+**_Business decision:_** Given the strong negative association between addiction levels and sleep duration, wellbeing and academic support teams should consider targeted guidance to help students manage excessive social media use, particularly late-night scrolling. Recommendations may include digital curfews, app timers, or structured bedtime routines. Improving sleep hygiene for highly addicted users could support better mental health, higher academic performance, and overall wellbeing.
 
 ---
 
@@ -406,7 +406,7 @@ Affected academic status was included for a similar reason to the relationship c
 
 ### Dashboard improvements
 
-I was fortunate enough to receive feedback from someone who suggested some changes to axis labels, colour schemes and kpi card design to make it more user friendly and keep the results interpretable by both technical and non technical users.
+Feedback received suggested changes to axis labels, colour schemes and kpi card design to make it more user friendly and keep the results interpretable by both technical and non technical users.
 
 ### Communicating Insights to Technical and Non-Technical Audiences
 
@@ -448,18 +448,18 @@ During the design phase I made sure to keep the dashboard:
 
 ## Development Roadmap
 
-Self relection from my first project:
-_I struggled to know what to do with outliers and nulls, not knowing whether to get rid of 145 rows because I didn't know whether that was 'too many' rows to lose and maintain the integrity of the dataset_
+Self relection from my first project:  
+_I struggled to know what to do with outliers and nulls, not knowing whether to get rid of 145 rows because I didn't know whether that was 'too many' rows to lose and maintain the integrity of the dataset_  
 During this project I was happy to get rid of outliers to be able to plot accurate findings without rogue values obscuring results. Despite it being a small data set of less than 1000 rows I decided to lose any outliers, and fill in nulls where I could.
 
-_Gaps in my knowledge were evident, where I was not able to retain the information I was able to refer to my notes_
+_Gaps in my knowledge were evident, where I was not able to retain the information I was able to refer to my notes_  
 In the time between the first project and now, I have been using resources to further my knowledge. Using websites such as codewars, w3schools and AI to put my skills into practice on small datasets.
 
-Facilitator feedback from my first project:
-_Use descriptive lowercase names for repositories, folders and files. Consider adding an image folder to maintain clean and professional structure_
-As you can see I have tidied up my repository, consistently using lowercase letters and \_ when naming files and folders as well as housing images and dashboards in their own separate folders for easier navigation.
+Facilitator feedback from my first project:  
+_Use descriptive lowercase names for repositories, folders and files. Consider adding an image folder to maintain clean and professional structure_  
+As you can see I have tidied up my repository, consistently using lowercase letters and underscores when naming files and folders as well as housing images and dashboards in their own separate folders for easier navigation.
 
-_Aim for code comments to describe what the code is doing and the markdown to explain why_
+_Aim for code comments to describe what the code is doing and the markdown to explain why_  
 I have ensured that every code cell has a #codecomment outlining the purpose of the code and markdown to explain the why. In instances where I am explaining why I'm going to use certain code the markdown has been placed before the code whereas when I'm discussing results the markdown will be put after the plot or code.
 
 Skill development has also been demonstrated by:
