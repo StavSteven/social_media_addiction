@@ -440,3 +440,33 @@ During the design phase I made sure to keep the dashboard:
 -   No known unfixed bugs
 -   There was an issue with displaying images from image folder in notebooks on github. alt text would appear without the image. I tried different images in different notebooks but it didn't work, the issue was resolved by making my repo public.
 -   Plotly plot didn't show up initially so saved as .html and stored in repo.
+
+---
+
+## Development Roadmap
+
+Self relection from my first project:
+_I struggled to know what to do with outliers and nulls, not knowing whether to get rid of 145 rows because I didn't know whether that was 'too many' rows to lose and maintain the integrity of the dataset_
+During this project I was happy to get rid of outliers to be able to plot accurate findings without rogue values obscuring results. Despite it being a small data set of less than 1000 rows I decided to lose any outliers, and fill in nulls where I could.
+
+_Gaps in my knowledge were evident, where I was not able to retain the information I was able to refer to my notes_
+In the time between the first project and now, I have been using resources to further my knowledge. Using websites such as codewars, w3schools and AI to put my skills into practice on small datasets.
+
+Facilitator feedback from my first project:
+_Use descriptive lowercase names for repositories, folders and files. Consider adding an image folder to maintain clean and professional structure_
+As you can see I have tidied up my repository, consistently using lowercase letters and \_ when naming files and folders as well as housing images and dashboards in their own separate folders for easier navigation.
+
+_Aim for code comments to describe what the code is doing and the markdown to explain why_
+I have ensured that every code cell has a #codecomment outlining the purpose of the code and markdown to explain the why. In instances where I am explaining why I'm going to use certain code the markdown has been placed before the code whereas when I'm discussing results the markdown will be put after the plot or code.
+
+Skill development has also been demonstrated by:
+
+-   Using machine learning techniques for the first time, implementing and updating and PCA and KMeans pipeline. Using elbow method and silhouette score to determine optimal number of clusters.
+-   One hot encoding. Since the first project I have worked on understanding the methods for encoding categorical data and when to use each method.
+-   Creating dashboards was something not required on the first project, nor was it something that I was assigned to do in the group project. I think I have created a powerful dashboard here interpretable by users of all technical levels, grouping together relevant data and putting easy to use filters in place.
+
+After this project I plan to focus my learning on:
+
+-   Continuing to master the skills used to inspect, clean and plot raw data
+-   Carry on making dashboards that can be used to present actionable business insights to stakeholders
+-   Go over the machine learning modules and work with data that allows me to try an alternative to clusters, perhaps linear regression or classification
