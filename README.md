@@ -7,11 +7,11 @@ Project bookmarks:
 -   [README](/README.md)
 -   [Project board](https://github.com/users/StavSteven/projects/10)
 -   [Raw data](/data/raw_data/student_social_media_addiction.csv) | [Clean data](/data/cleaned_data/student_social_media_addiction_cleaned.csv)
--   [ETL Jupyter Notebook](/jupyter_notebooks/1_data_cleaning_student_social_media_addiction.ipynb)
+-   [ETL Notebook](/jupyter_notebooks/1_data_cleaning_student_social_media_addiction.ipynb)
 -   [Visualisation & Statistical analysis Notebook](/jupyter_notebooks/2_visualisations_student_social_media_addiction.ipynb)
 -   [Machine Learning Notebook](/jupyter_notebooks/3_machine_learning.ipynb)
 -   [Power BI dashboard](/dashboard/social_media_addiction_dashboard.pbix)
--   [Conclusion and discussion]()
+-   [Conclusion and discussion](#conclusion-and-discussion)
 
 ## Contents
 
@@ -20,13 +20,16 @@ Project bookmarks:
 3. [Business Requirements](#business-requirements)
 4. [Hypothesis Testing and Validation](#hypothesis-testing-and-validation)
 5. [Rationale to map business requirements](#rationale-to-map-business-requirements)
-6. [Analysis Techniques Used](#analysis-techniques-used)
-7. [Development Roadmap](#development-roadmap)
-8. [Libraries & External Software Used](#libraries--external-software-used)
-9. [Conclusion and discussion](#conclusion-and-discussion)
-10. [Limitations](#limitations)
-11. [Credits](#credits)
-12. [Acknowledgements](#acknowledgements)
+6. [Project plan](#project-plan)
+7. [Data Analysis Methods Used](#data-analysis-methods-used)
+8. [Development Roadmap](#development-roadmap)
+9. [Deployment](#deployment)
+10. [Main Data Analysis Libraries](#main-data-analysis-libraries)
+11. [Conclusion and discussion](#conclusion-and-discussion)
+12. [Limitations in the data](#limitations-in-the-data)
+13. [Overall summary](#overall-summary)
+14. [Credits](#credits)
+15. [Acknowledgements](#acknowledgements)
 
 ## Project overview
 
@@ -62,7 +65,7 @@ It contains records of students ranging from 18-25, from all over the world. It 
 There were no business requirements supplied with this dataset so I have created a scenario where the dataset has been provided by a health professional working in education providing wellbeing advice to students.
 They have asked to find out how social media activity affects students academic performance, whether there are any other patterns that could provide causation for lower attainment levels and mental health scores. This could highlight a group of students that are at risk and could be targeted for intervention by their educational institution.
 
-## Hypothesis and how to validate?
+## Hypothesis testing and validation
 
 ### Format:
 
@@ -189,7 +192,7 @@ This project followed a structured data analytics workflow designed to ensure th
 -   Used statistical tests such as Spearman’s rank, Kruskal–Wallis and Chi-Square tests to assess relationships and comparisons amongsts different fields in the dataset.
 -   These were selected because they do not assume normality and are appropriate for survey-based, unevenly distributed data.
 
-### 5. Intepretation of findings
+### 5. Interpretation of findings
 
 -   Created user friendly plots using Seaborn, Matplotlib and Plotly, including boxplots, scatter plots, violin plots, and bar charts.
 -   Visualisations were used alongside statistical output to provide intuitive explanations of trends.
@@ -354,7 +357,7 @@ All analysis focused on pattern discovery rather than prediction.
 
 ## Ethical considerations
 
--   Dataset was publically available on kaggle
+-   Dataset was publicly available on Kaggle
 -   The dataset contained no information that could be used to trace any individual
 -   Data was used for research and analysis only. There were no GDPR violations
 -   Student identifiers were modified during cleaning phase
@@ -363,7 +366,7 @@ All analysis focused on pattern discovery rather than prediction.
 -   Social media platforms weren't equally represented and other categorical imbalances were present
 -   As a result wellbeing decisions should not be made solely from clustering, they are behavioural patterns not a diagnosis of any individual
 -   Limitations in the dataset have been documented
--   Use of AI has been documented througout the project
+-   Use of AI has been documented throughout the project
 
 ---
 
@@ -399,7 +402,7 @@ This table shows the correlation between average mental health score versus addi
 Donut charts (bottom right)
 Relationship chart was to allow the user the chance to see whether there were any patterns present here when other categoricals were being looked in to. It could be useful for cluster interpretation. On average individuals in a relationship had a better mental health score than those not in a harmonious relationship.
 
-Affected academic status was included for a similar reason to the relationship chart, the user can drill down on other metrics to see what habits can cause the individual to have their studies affected and can they put a plan in place to prevent this level of harm occuring in individuals in future.
+Affected academic status was included for a similar reason to the relationship chart, the user can drill down on other metrics to see what habits can cause the individual to have their studies affected and can they put a plan in place to prevent this level of harm occurring in individuals in future.
 
 ### Dashboard improvements
 
@@ -407,7 +410,7 @@ I was fortunate enough to receive feedback from someone who suggested some chang
 
 ### Communicating Insights to Technical and Non-Technical Audiences
 
-As previously mentioned the dashboard has been esigned for non technical users too
+As previously mentioned the dashboard has been designed for non technical users too
 
 The dashboard uses:
 
@@ -573,7 +576,7 @@ The interactive dashboard, supported by well thought out methodology and user fr
 -   Kaggle for the dataset
 -   Code institute LMS for being a tool that I could refer back to
 -   Code institute data analytics and readme templates
--   Youtube - Refresher on seaborn/matplotlip
+-   Youtube - Refresher on seaborn/matplotlib
 -   OpenAI, ChatGPT and PerplexityAI
 -   Header image - https://siddharthrajsekar.substack.com/p/swipe-scroll-repeat-how-instagram
 
