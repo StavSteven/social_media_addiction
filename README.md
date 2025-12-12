@@ -146,6 +146,8 @@ A strip plot was used to show each user’s sleep duration against their addicti
 
 ---
 
+![Hypotheses dashboard](images/hypotheses_dashboard.png)
+
 # Summary of findings v hypothesis
 
 | Hypothesis                                     | Statistical Test            | Statistic / Correlation | p-value       | Interpretation / Result                             |
@@ -207,3 +209,79 @@ This project followed a structured data analytics workflow designed to ensure th
 -   Group-comparison tests were selected where platform-based behavioural differences were expected.
 -   Visual methods (strip plots, boxplots, violin plots) were chosen because they communicate both the distribution and concentration of responses clearly, especially for survey datasets.
 -   The combination of statistical tests and visual analysis ensured findings were interpretable by both technical and non technical users
+
+---
+
+## Rationale to map business requirements
+
+This project’s data visualisations were designed to support the wellbeing professional’s core business requirements by transforming the dataset into meaningful, actionable insights. Each visual was selected to answer a specific analytical question related to student mental health, sleep quality, social media behaviour, and academic impact.
+
+Below is an outline of each requirement and the rationale behind the chosen visual approach.
+
+### 1. Identify and visualise factors that negatively affect student wellbeing and academic performance
+
+Visualisations used:
+
+-   Scatterplots (e.g., social media usage vs. sleep duration)
+-   Correlation analysis heatmaps
+-   Violin and box plots showing mental health distributions
+-   Strip plots illustrating addiction levels across sleep categories
+
+Rationale:
+These visuals make it possible to pinpoint which behaviours strongly associated with poor sleep, lower mental health, or academic disruption. These include heavy social media use, addiction score, frequency of conflicts.
+The combination of correlations and distribution-based plots highlights both strength and shape of these relationships, helping the wellbeing professional understand the root drivers of risk to student's health and academic attainment.
+
+### 2. Provide actionable wellbeing insights for educational stakeholders
+
+Visualisations used:
+
+-   Mental health vs. conflict violin plots
+-   Addiction vs. sleep duration combined box/strip plots
+-   Scatterplots showing sleep deficits linked to excessive usage
+
+Rationale:
+These visualisations clearly illustrate patterns that have practical wellbeing implications—such as students losing sleep due to excessive social media use or experiencing deteriorating mental health following repeated online conflicts. This allows wellbeing advisors to make evidence-based recommendations, such as digital curfews, support interventions, or student guidance initiatives.
+
+### 3. Compare trends across different social media platforms
+
+Visualisations used:
+
+-   Bar charts comparing mental health and academic impact across TikTok, Instagram, and Facebook
+-   Platform-based score distributions
+-   Statistical test (Kruskal–Wallis and Chi-Square)
+
+Rationale:
+Platform-level comparisons reveal behavioural and wellbeing differences between user groups, highlighting TikTok users as statistically more vulnerable (lower mental health scores and higher academic disruption). These visuals help stakeholders identify which student segments may require the most targeted support.
+
+### 4. Enable exploration of student behaviour across demographics and wellbeing indicators
+
+Visualisations used:
+
+-   Dashboard (Power BI) with filters for academic level, most used platform country, gender, relationship status
+-   Line charts, bar charts, and scatterplots that react dynamically to filters
+
+Rationale:
+Interactive filtering allows wellbeing teams and educators to explore patterns across demographic groups or behavioural subgroups—helping them understand whether certain populations face disproportionate risks.
+This supports scenario-based insights, enabling institutions to tailor interventions to specific student communities.
+
+### 5. Communicate complex behavioural relationships in an accessible way
+
+Visualisations used:
+
+-   Cleanly annotated scatterplots
+-   Intuitive distribution plots (violin, box, strip)
+-   Colour-coded bar charts for platform comparisons
+-   Dashboard with user-friendly drill-down options
+
+Rationale:
+Because the final users may not have statistical or analytical expertise, each visual was designed to be intuitive and self-explanatory. Annotated plots and straightforward layouts communicate findings clearly, supporting fast interpretation without requiring technical background knowledge.
+
+### Summary
+
+Every visualisation in this project was chosen not only to support rigorous statistical analysis, but also to make the findings accessible, interpretable, and actionable for stakeholders in an educational wellbeing context. The mapping from business requirement to visual to insights ensures that each output directly contributes to understanding and improving the wellbeing and academic success of students.
+
+![Dashboard screenshot](/dashboard/dashboard_screenshot1.png)
+
+---
+
+## Analysis techniques used
