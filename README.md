@@ -473,6 +473,13 @@ After this project I plan to focus my learning on:
 
 ---
 
+## Deployment
+
+My Power BI dashboard can be found in the dashboard repository folder along with two screenshots of it in action.
+[Dashboard](/dashboard/social_media_addiction_dashboard.pbix)
+
+---
+
 ## Main Data Analysis Libraries
 
 | **Library / Package**    | **Purpose in Project**                                                                                                                                                                        |
@@ -487,3 +494,76 @@ After this project I plan to focus my learning on:
 | **scipy.stats**          | Running statistical tests including Spearman correlation, Kruskal–Wallis, Chi-Squared, t-tests, and ANOVA.                                                                                    |
 | **pingouin**             | Additional statistical tools, effect sizes, and non-parametric test support beyond SciPy’s core functions.                                                                                    |
 | **scikit-learn**         | Machine learning workflow, including preprocessing, encoding, scaling, dimensionality reduction (PCA), clustering (KMeans), pipeline construction, and cluster evaluation (silhouette score). |
+
+---
+
+## Conclusion and discussion
+
+This project provided an exploration of student social media behaviour using a combination of exploratory data analysis, statistical testing, and unsupervised machine learning. Across the three notebooks, the data was loaded and inspected, before being transformed and plotted to help gain a deeper understanding of behaviours, allowing both high-level insights and interpretations of user groups.
+
+### Summary of findings v hypothesis
+
+Statistical testing & hypothesis validation:
+
+Given the nature of the data, primarily ordinal and not normally distributed, non-parametric tests were used throughout. The statistical analysis led to several important findings:
+
+-   Spearman correlations showed moderate relationships between addiction scores, mental health, and academic performance perception.
+-   The Kruskal–Wallis test confirmed that usage patterns and addiction levels differ significantly across social media platforms.
+-   Chi-Squared results demonstrated a dependence between academic performance impact and platform used.
+
+These tests validated that behavioural differences were not random and justified the use of unsupervised learning to detect deeper structural patterns.
+
+### Findings
+
+| Hypothesis                                     | Statistical Test            | Statistic / Correlation | p-value       | Interpretation / Result                             |
+| ---------------------------------------------- | --------------------------- | ----------------------- | ------------- | --------------------------------------------------- |
+| H1: Higher daily social media use → less sleep | Spearman's rank correlation | ρ = -0.813              | 3.13 × 10⁻¹⁶⁶ | Strong negative correlation, reject H₀              |
+| H2: More conflicts → lower mental health       | Spearman's rank correlation | ρ = -0.908              | 4.49 × 10⁻²⁶⁶ | Strong negative correlation, reject H₀              |
+| H3: TikTok users have lowest mental health     | Kruskal–Wallis H-test       | H = 58.90               | 1.62 × 10⁻¹³  | Significant difference between platforms, reject H₀ |
+| H4: Higher addiction → less sleep              | Spearman's rank correlation | ρ = -0.786              | 2.44 × 10⁻¹⁴⁸ | Strong negative correlation, reject H₀              |
+
+### Key behavioural patterns:
+
+-   Platform usage varies significantly across gender and academic level, with Instagram and TikTok dominating among younger users.
+-   Sleep duration, mental health scores, and conflict over social media exhibited skewed distributions, requiring careful non-parametric handling.
+-   Early variable comparisons hinted at relationships between heavy usage, academic disruption, and self-reported addiction, motivating later hypothesis tests.
+
+### Machine learning model - unsupervised
+
+In my third notebook, a full machine-learning pipeline was constructed to identify meaningful user clusters. PCA reduced the dataset to 10 components, retaining 86% of variance and enabling efficient clustering. Both Elbow Method and Silhouette Scores were used to choose an appropriate number of clusters, balancing simplicity and interpretability, although they gave out a different recommended number of clusters, 4 and 2 respectively, both were plotted and it was then decided to carry on the notebook with four clusters Although two clusters produced stronger separation, four clusters offered richer behavioural insight while maintaining adequate cohesion. These profiles provide actionable insights for educators and wellbeing professionals.
+
+The final four clusters revealed distinct behavioural segments:
+
+| **Cluster**   | **High-Level Description**                                                                           |
+| ------------- | ---------------------------------------------------------------------------------------------------- |
+| **Cluster 0** | Balanced demographic mix, moderate usage, minimal academic interference                              |
+| **Cluster 1** | Older/more advanced students, primarily male, low impact on academics                                |
+| **Cluster 2** | Heavy social media users, predominantly female undergraduates, highest academic and wellbeing impact |
+| **Cluster 3** | Mixed group with balanced platform use and moderate interference                                     |
+
+### Limitations in the data
+
+-   Self-reported metrics introduce subjectivity and potential bias.
+-   Data taken from a single point in time, no time comparison available amongst individuals.
+-   Uneven category sizes meant potential for misrepresentation and required use of non-parametric methods.
+
+Future work could include:
+
+-   Collecting behavioural data for time-series analysis.
+-   Expanding demographics to improve fairness in comparisons.
+-   Developing predictive models to estimate risk of academic impact or addiction.
+
+### Overall summary
+
+Through use of exploratory analysis, statistical methods, visual plots and machine-learning techniques, this project provides a detailed, evidence-based picture of student's social media behaviour. The findings suggest that heavy engagement on certain platforms may align with higher academic disruption and lower mental health scores, while other groups maintain balanced usage with minimal negative effects. These patterns demonstrate that the results of this project are just grouped behaviours and may not be a one size fits all for every individual within a certain group.
+
+The interactive dashboard, supported by well thought out methodology and user friendly design design, transforms complex analysis into accessible insights, making this project a valuable tool for understanding digital behaviour in student populations. This analysis reinforces the importance of using evidence-based insights to inform student support strategies, and foster healthier relationships with social media.
+
+### Use of AI in this project
+
+-   Helping create hypotheses
+-   Improving code efficiency, particularly in preprocessing and visualisation, or carrying out mapping of large amounts of data
+-   Helping with statistical interpretation
+-   Offering visualisation improvements to plots
+-   Supporting cluster profiling and narrative clarity.
+-   Helping debug and issue I had with including images in markdown
