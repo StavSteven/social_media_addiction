@@ -350,11 +350,17 @@ All analysis focused on pattern discovery rather than prediction.
 -   Helped refine research questions and business requirements.
 -   Improved clarity, technical tone, and flow across documentation and README.
 
-### Ethical Boundaries
+---
 
-AI was used only for:
+## Ethical considerations
 
--   Thought support and ideation
--   Automating repetitive tasks
--   Debugging code
--   Enhancing readability of plots and documentation
+-   Dataset was publically available on kaggle
+-   The dataset contained no information that could be used to trace any individual
+-   Data was used for research and analysis only. There were no GDPR violations
+-   Student identifiers were modified during cleaning phase
+-   Values were self reported so values such as mental health score, affected academic studies, addiction scores could be inaccurate
+-   The dataset features some students as the sole participant from that country
+-   Social media platforms weren't equally represented and other categorical imbalances were present
+-   As a result wellbeing decisions should not be made solely from clustering, they are behavioural patterns not a diagnosis of any individual
+-   Limitations in the dataset have been documented
+-   Use of AI has been documented througout the project
