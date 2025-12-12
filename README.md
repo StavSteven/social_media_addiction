@@ -364,3 +364,79 @@ All analysis focused on pattern discovery rather than prediction.
 -   As a result wellbeing decisions should not be made solely from clustering, they are behavioural patterns not a diagnosis of any individual
 -   Limitations in the dataset have been documented
 -   Use of AI has been documented througout the project
+
+---
+
+## Dashboard design
+
+1. KPI cards (top left)
+   These are summaries of the key numerical metrics, mental health score and addiction score. These will be updated when a filter is applied. The gauges were added as a visual aid after receiving feedback from a user asking is the score out of 10, 20, 100?
+
+2. Filters (left side)
+   These are drop down filters of key categoricals allowing the user to sort the data by:
+
+-   Academic level
+-   Most used platform
+-   Country
+-   Gender
+-   Relationship status
+
+Once selected, all other visuals on the page will update too.
+
+3. Visuals
+   Bar and line chart (top centre)
+   The chart is reporting the number of conflicts each student has had over social media, they have then been split down into male and female for each number of conflicts. I decided to include a line overlay representing mental health score to demonstrate how that will decline as the number of conflicts increases for the individual.
+
+Bar chart (centre)
+This bar chart is to illustrate how behaviour varies across education level, again split up into genders but this time measuring against a self confessed addiction level. It shows that as a person matures they find it easier to not spend as much time on social media, but even graduates have a hard time giving it up totally.
+
+Line chart (bottom centre)
+This chart compliments the one above it, showing how wellbeing and online activity change from the ages of 18-24 and how mental health may change as a result. It was a conscious effort made to use the same scales on both y-axis to show the crossover between the sweetspot of good mental health and healthy screen time. Either side of that mental health goes up or down.
+
+Country comparison table (top right)
+This table shows the correlation between average mental health score versus addiction score by country. It can be viewed as a standalone table or will be updated as a user drills down on other metrics on the dashboard and will return the top 15 countries. This helps identify the countries with the best and worst behaviours that act as a cause of harm to the individual
+
+Donut charts (bottom right)
+Relationship chart was to allow the user the chance to see whether there were any patterns present here when other categoricals were being looked in to. It could be useful for cluster interpretation. On average individuals in a relationship had a better mental health score than those not in a harmonious relationship.
+
+Affected academic status was included for a similar reason to the relationship chart, the user can drill down on other metrics to see what habits can cause the individual to have their studies affected and can they put a plan in place to prevent this level of harm occuring in individuals in future.
+
+### Dashboard improvements
+
+I was fortunate enough to receive feedback from someone who suggested some changes to axis labels, colour schemes and kpi card design to make it more user friendly and keep the results interpretable by both technical and non technical users.
+
+### Communicating Insights to Technical and Non-Technical Audiences
+
+As previously mentioned the dashboard has been esigned for non technical users too
+
+The dashboard uses:
+
+-   Simple chart types that can be interpreted easily
+-   Clear labels and colour coding
+-   High-level KPIs and gauges for quick scanning
+-   Logical layout grouped by themes: conflict behaviour, addiction, wellbeing, demographics
+-   Interactive filters that allow exploration without statistical knowledge
+
+Without reading any of the raw data or possessing statistical knowledge non technical users can see:
+
+-   More conflicts lead to worse mental health
+-   Younger students show different trends
+-   Some countries have higher addiction scores
+
+Technical users can see:
+
+-   Multi variable comparisons displayed in the same plot (such as combo charts, dual-axis trends)
+-   Strong signal patterns visible in the visuals that support EDA findings
+-   Country tables showing exact numerical values
+
+During the design phase I made sure to keep the dashboard:
+
+-   Visual orientated, with minimal text
+-   Important metrics are prominently displayed
+-   Easy to read colour schemes, trying to stick to two colours
+
+## Unfixed bugs
+
+-   No known unfixed bugs
+-   There was an issue with displaying images from image folder in notebooks on github. alt text would appear without the image. I tried different images in different notebooks but it didn't work, the issue was resolved by making my repo public.
+-   Plotly plot didn't show up initially so saved as .html and stored in repo.
