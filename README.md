@@ -567,3 +567,18 @@ The interactive dashboard, supported by well thought out methodology and user fr
 -   Offering visualisation improvements to plots
 -   Supporting cluster profiling and narrative clarity.
 -   Helping debug and issue I had with including images in markdown
+
+## Credits
+
+-   Kaggle for the dataset
+-   Code institute LMS for being a tool that I could refer back to
+-   Code institute data analytics and readme templates
+-   Youtube - Refresher on seaborn/matplotlip
+-   OpenAI, ChatGPT and PerplexityAI
+-   Header image - https://siddharthrajsekar.substack.com/p/swipe-scroll-repeat-how-instagram
+
+## Acknowledgements
+
+-   Code Institute facilitators and coaches - Emma Lamont, Spencer Barriball, Mark Briscoe, Marcel (123helpmestudy)
+-   Fellow September 2025 for support along the way, technical and emotional
+-   ChatGPT/PerplexityAI
