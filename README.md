@@ -284,4 +284,77 @@ Every visualisation in this project was chosen not only to support rigorous stat
 
 ---
 
-## Analysis techniques used
+## Data Analysis Methods Used
+
+### Exploratory Data Analysis (EDA)
+
+-   Summary statistics (mean, median, variance)
+-   Distribution analysis with histograms and KDE plots
+-   Transforming the data
+-   Dealing with problem values (nulls and duplicates)
+-   Initial relationship exploration using scatterplots, violin plots, and boxplots
+
+### Statistical Analysis
+
+-   Spearman's rank to evaluate relationships between variables
+-   Kruskal–Wallis test for comparing scores across platforms
+-   Chi-Squared test for categorical associations
+
+### Visual Statistics
+
+-   Scatterplots
+-   Violin, strip, and box plots
+-   Bar charts and histograms
+-   Interactive dashboard
+
+### Machine Learning
+
+-   Pipeline for preprocessing and modelling
+-   Dimensionality reduction using PCA
+-   Clustering (KMeans)
+-   Elbow method and silhouette score
+-   Cluster profiling
+
+Note:
+No supervised ML models were used as the dataset did not include a target variable.
+All analysis focused on pattern discovery rather than prediction.
+
+### Limitations of the Dataset
+
+-   Many variables were ordinal, making parametric tests (like Pearson correlation) inappropriate.
+-   Uneven group sizes (e.g., TikTok vs. other platforms) reduced reliability of comparisons.
+-   Self-reported values (sleep, mental health, addiction) introduced bias.
+-   Dataset captured only a single point in time per student — no causal inference possible.
+-   No long-term behaviour tracking, academic grades, or medical/clinical data.
+-   Some platforms had extremely small sample sizes, preventing reliable statistical testing.
+
+### Alternative Approaches With Better Data
+
+-   Pearson correlation or linear regression if data were continuous and normally distributed.
+-   ANOVA for group comparisons if group sizes were balanced.
+-   Time-series analysis if behaviour were tracked over multiple days or weeks.
+
+## How Generative AI Tools Supported Ideation, Design Thinking, and Code Optimisation
+
+### Code Optimisation
+
+-   Suggested more efficient approaches to certain pandas operations.
+-   Automated repetitive coding tasks through mapping and vectorised operations.
+-   Improved plot readability (colour schemes, axis labelling, layout tweaks).
+-   Recommended additional statistical tests appropriate for ordinal data.
+-   Helped debug common errors during EDA and visualisation (especially Plotly).
+
+### Documentation & Communication
+
+-   Assisted with ideation and framing of hypotheses.
+-   Helped refine research questions and business requirements.
+-   Improved clarity, technical tone, and flow across documentation and README.
+
+### Ethical Boundaries
+
+AI was used only for:
+
+-   Thought support and ideation
+-   Automating repetitive tasks
+-   Debugging code
+-   Enhancing readability of plots and documentation
