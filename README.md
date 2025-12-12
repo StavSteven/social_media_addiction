@@ -125,7 +125,7 @@ For this hypothesis, the analysis focused on the three platforms with the larges
 As I have included whether specific platforms have effected academic performance on the plot then it made sense to carry out a statistical test on that too.
 **The Chi-Square test returned a χ² value of 257.82 & pval < 0.05 (6.43 × 10⁻⁴⁹)** This result means that there is link between platform and impact on academic studies. That TikTok users are far more likely to report an impact on their studies than users of other social media sites. TikTok users demonstrated both the lowest mental health scores and the highest rate of reported academic impact (93.46%), compared with (68.95%) for Instagram and (30.08%) for Facebook, where a majority of users reported no academic effects. This pattern strongly supports the initial hypothesis.
 
-[View interactive Plotly plot](images/top_platform_mental_health_plotly.html)
+![View Plotly plot](/images/h3_top_platforms_v_mentalhealth.png)
 
 **_Business decision_** Based on the strong association between TikTok use, reduced mental health scores, and frequent reports of academic disruption, it would be advisable for wellbeing and academic support teams to consider targeted interventions for heavy TikTok users, pointing students in the direction of wellbeing services to raise awareness of the importance of balance between online and offline. Reducing excessive TikTok consumption may help improve both mental wellbeing and academic performance.
 
